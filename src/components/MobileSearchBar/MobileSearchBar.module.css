@@ -1,0 +1,44 @@
+.wrapper_search_mob{
+    display: flex;
+    align-items: center;
+    
+  }
+  .wrapper_mob_search {
+    width: 95vw;
+    border: 1px solid black;
+    height: 2.3rem;
+    margin-left: 2.4vw;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #dce4f2;
+    border-radius: 0.5rem;
+  }
+  .focused{
+    border: 2px solid #2bc2d3;
+  }
+  .mob_search_inp {
+    margin-left: 1%;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    height: 2rem;
+    width: 85%;
+    padding-left: 0.5rem;
+    
+
+  }
+  .mob_search_inp::placeholder{
+      font-size: 1rem;
+      color: #758f90;
+  }
+  .search_icon{
+      font-weight: 800;
+      font-size: 1.6rem;
+      color: #a2a6ac;
+      padding-left: .4rem;
+      padding-top: .4rem;
+  }
+   

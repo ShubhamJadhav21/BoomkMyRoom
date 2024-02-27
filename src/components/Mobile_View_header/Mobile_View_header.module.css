@@ -1,0 +1,69 @@
+.mobile_view_header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: fit-content;
+  background-color: #dce4f2;
+}
+.hamburger_icon {
+  font-size: 1.5rem;
+}
+.area {
+  display: flex;
+  font-size: 0.85rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+.search_bar {
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.menu {
+  display: flex;
+  gap: 1rem;
+  margin-left: 0.2rem;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.left_sec {
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.rtl_content {
+  margin-top: 0rem;
+  margin-right: 0.1rem;
+  font-size: 1.2rem;
+  align-items: center;
+  cursor: pointer;
+}
+.location_icon {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.top_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  
+}
+@media screen and (max-width:372px) {
+   .logo{
+    font-size: small;
+   }
+}
+

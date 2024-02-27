@@ -1,0 +1,54 @@
+.wrapper_side_bar {
+  width: 80vw;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  height: 100vh;
+  background-color: #31465a;
+  position: relative;
+  
+}
+
+.close {
+  font-size: 1.8rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: white;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  font-size: 1.4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: orange;
+}
+.menu {
+  display: flex;
+  align-items: start;
+  margin-left: 20%;
+  margin-top: 3rem;
+  gap: 2.5rem;
+  color: white;
+  font-size: 1.2rem;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.post_ad,
+.about,.my_ad {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.icon_ad{
+  font-size: 1.8rem;
+}
+.ad_icon{
+  font-size: 1.5rem;
+}
+.icon_info {
+  font-size: 1.7rem;
+}

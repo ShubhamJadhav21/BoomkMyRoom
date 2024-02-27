@@ -1,0 +1,366 @@
+.ad_post_wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  max-height: fit-content;
+  overflow: auto; /* Add overflow auto to enable scrolling when content overflows */
+  flex-grow: 1; /* Allow the container to grow to fill available space */
+}
+label {
+  color: #002f3a;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.backarrow_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  gap: 2rem;
+  width: 100%;
+  background-color: #f7f8f9;
+}
+.back_arrow {
+  font-size: 1.7rem;
+  color: #002f34;
+  margin: 1rem;
+  cursor: pointer;
+}
+.title {
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+form {
+  max-width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 2rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.pers_detail {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  display: flex;
+
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.name {
+  display: flex;
+  align-items: center;
+
+  gap: 10%;
+
+  flex-wrap: wrap;
+}
+
+.fst_name,
+.lst_name {
+  display: flex;
+  gap: 0.1rem;
+  flex-direction: column;
+}
+
+.input_fst_name,
+.input_lst_name,
+.input_phone,
+.input_district,
+.sub_area,
+.near_places {
+  height: 2.5rem;
+  width: 100%;
+  padding-left: 0.5rem;
+  outline-color: #2bc2d3;
+  border-radius: 0.2rem;
+  border: 1px solid #5c7a7d;
+}
+.necess {
+  color: red;
+}
+.states {
+  display: flex;
+  flex-direction: column;
+}
+.input_state {
+  height: 2.5rem;
+  width: 101.5%;
+  margin: 0;
+  outline-color: #2bc2d3;
+  border-radius: 0.2rem;
+  border: 1.3px solid #5c7a7d;
+}
+
+.address {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.phone {
+  display: flex;
+  gap: 0.1rem;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.rooms_type {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  padding: 0.4rem;
+}
+.room_types {
+  margin-bottom: 0.2rem;
+  color: #002f34;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.room_type {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: white;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  border-radius: 4px;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+.ad_details {
+  margin-top: 0.5rem;
+}
+.genders {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+}
+.genders div {
+  display: flex;
+  gap: 1rem;
+}
+.genders label {
+  margin-bottom: -0.8rem;
+}
+.selected_room,
+.selected_gender {
+  background-color: #2bc2d3;
+  border: none !important;
+  border-radius: 0.2rem;
+
+  color: white;
+}
+.genders .g_span {
+  border: 1px solid black;
+  height: fit-content;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+}
+.who_stay {
+  margin-top: 1.5rem;
+  flex-direction: column;
+}
+
+.select_accommodation,
+.select_ac,
+.select_fan,
+.select_geyser {
+  padding: 0.4rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 8rem;
+  cursor: pointer;
+}
+.extra_room_info {
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: flex;
+}
+.desc {
+  padding-left: 0.8rem;
+  padding-top: 0.2rem;
+  outline-color: #2bc2d3;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+  width: 90%;
+}
+
+.des {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.ad_photos {
+  margin-top: -2rem;
+  color: #002f34;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ad_photos span {
+  display: inline-block;
+  margin-top: 2rem;
+}
+.photo_wrapper {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.camera_icon {
+  color: #9dadb6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 2rem;
+}
+.photo {
+  position: relative;
+  border: 1px solid #9dadb6;
+  width: 7rem;
+  height: 7rem;
+  cursor: pointer;
+}
+.photo_input {
+  display: none;
+}
+
+.photo_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  position: relative;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 0%;
+  /* top: -2rem; */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn_post {
+  padding: 0.4rem;
+  width: 6rem;
+  margin-top: 1rem;
+  background-color: #d8dfe0;
+  color: #7f9799;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .ad_post_wrapper {
+    /* padding: 2rem; */
+  }
+  .pers_detail {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3rem;
+  }
+
+  .input_fst_name,
+  .input_lst_name,
+  .input_phone,
+  .input_district,
+  .sub_area,
+  .near_places {
+    height: 2.5rem;
+    width: 90%;
+    padding-left: 0.5rem;
+    outline-color: #2bc2d3;
+    border-radius: 0.2rem;
+    border: 1.3px solid #5c7a7d;
+  }
+  .fst_name {
+    margin-top: -2.6rem;
+  }
+  .lst_name {
+    margin-top: 1rem;
+  }
+  .input_state {
+    width: 94%;
+    height: 2.5rem;
+    background-color: white;
+    border: 1.3px solid #5c7a7d;
+  }
+  .state_input {
+    height: 2.5rem;
+  }
+  .fst_name,
+  .lst_name,
+  .phone {
+    width: 100%;
+  }
+  .photo {
+    width: 6.1rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+  }
+  form {
+    max-width: 100vw;
+    box-shadow: none;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 365px) {
+  .input_fst_name,
+  .input_lst_name,
+  .input_phone,
+  .input_district,
+  .sub_area,
+  .near_places {
+    height: 2.5rem;
+    width: 80%;
+    padding-left: 0.5rem;
+    outline-color: #2bc2d3;
+    border-radius: 0.2rem;
+    border: 1.3px solid #5c7a7d;
+  }
+  .desc{
+    width: 50%;
+  }
+  .genders div{
+    flex-direction: column;
+    display: flex;
+
+  }
+  .pers_detail {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 3rem;
+  }
+  .backarrow_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0;
+  }
+  .ad_photos span{
+    font-size: small;
+    
+  }
+  .backarrow_wrapper span{
+    font-size: small;
+
+  }
+}

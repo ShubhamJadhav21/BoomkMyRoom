@@ -1,0 +1,24 @@
+Default style for laptop header
+.laptop_header {
+    display: none; /* Hide by default */
+}
+
+
+@media screen and (max-width: 768px) {
+    .laptop_header {
+        display: none; 
+    }
+    .mobile_header {
+        display: block; 
+    }
+}
+
+/* Media query for screen sizes greater than 768px */
+@media screen and (min-width: 769px) {
+    .laptop_header {
+        display: block; 
+    }
+    .mobile_header {
+        display: none; 
+    }
+}
